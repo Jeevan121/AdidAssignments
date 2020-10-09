@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-AssignmentDemo">
+              <span class="suite-name border-passed">AssignmentDemo</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-AssignmentDemo">
+                    <span>F:\work_space\AdidDemoProj\DemoSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-AssignmentDemo">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-AssignmentDemo">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-AssignmentDemo">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-AssignmentDemo">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-AssignmentDemo">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-AssignmentDemo">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-AssignmentDemo" class="hide-methods passed suite-AssignmentDemo"> (hide)</a> <!-- hide-methods passed suite-AssignmentDemo -->
+                      <a href="#" panel-name="suite-AssignmentDemo" class="show-methods passed suite-AssignmentDemo"> (show)</a> <!-- show-methods passed suite-AssignmentDemo -->
+                    </span>
+                    <div class="method-list-content passed suite-AssignmentDemo">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AssignmentDemo" title="com.demo.tests.Exercise2WebAutomationTest" hash-for-method="exercise2WebAutomationTest(Sony vaio i5, Dell i7 8gb, Product added, Jeevan, india, Bangalore, 12345678912345, Octomber, 2020)">exercise2WebAutomationTest(Sony vaio i5, Dell i7 8gb, Product added, Jeevan, india, Bangalore, 12345678912345, Octomber, 2020)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AssignmentDemo" title="com.demo.tests.Exercise1RestAPIAutomationTest" hash-for-method="getPetStatusByAvailbleTest">getPetStatusByAvailbleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AssignmentDemo" title="com.demo.tests.Exercise1RestAPIAutomationTest" hash-for-method="postNewAvailablePetToStoreTest(animal, doggie, tagName, available)">postNewAvailablePetToStoreTest(animal, doggie, tagName, available)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-AssignmentDemo -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-AssignmentDemo" class="panel AssignmentDemo">
+          <div class="suite-AssignmentDemo-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.demo.tests.Exercise1RestAPIAutomationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getPetStatusByAvailbleTest">
+                  </a> <!-- getPetStatusByAvailbleTest -->
+                  <span class="method-name">getPetStatusByAvailbleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postNewAvailablePetToStoreTest(animal, doggie, tagName, available)">
+                  </a> <!-- postNewAvailablePetToStoreTest(animal, doggie, tagName, available) -->
+                  <span class="method-name">postNewAvailablePetToStoreTest</span>
+                  <span class="parameters">(animal, doggie, tagName, available)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AssignmentDemo-class-passed -->
+          <div class="suite-AssignmentDemo-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.demo.tests.Exercise2WebAutomationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="exercise2WebAutomationTest(Sony vaio i5, Dell i7 8gb, Product added, Jeevan, india, Bangalore, 12345678912345, Octomber, 2020)">
+                  </a> <!-- exercise2WebAutomationTest(Sony vaio i5, Dell i7 8gb, Product added, Jeevan, india, Bangalore, 12345678912345, Octomber, 2020) -->
+                  <span class="method-name">exercise2WebAutomationTest</span>
+                  <span class="parameters">(Sony vaio i5, Dell i7 8gb, Product added, Jeevan, india, Bangalore, 12345678912345, Octomber, 2020)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AssignmentDemo-class-passed -->
+        </div> <!-- panel AssignmentDemo -->
+        <div panel-name="test-xml-AssignmentDemo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\work_space\AdidDemoProj\DemoSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;AssignmentDemo&quot;&gt;
+  &lt;test name=&quot;FBLoginAndRestAPIDemo&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.demo.tests.Exercise1RestAPIAutomationTest&quot;/&gt;
+      &lt;class name=&quot;com.demo.tests.Exercise2WebAutomationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FBLoginAndRestAPIDemo --&gt;
+&lt;/suite&gt; &lt;!-- AssignmentDemo --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-AssignmentDemo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for AssignmentDemo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">FBLoginAndRestAPIDemo (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-AssignmentDemo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for AssignmentDemo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-AssignmentDemo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for AssignmentDemo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_AssignmentDemo');
+function tableData_AssignmentDemo() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'exercise2WebAutomationTest')
+data.setCell(0, 2, 'com.demo.tests.Exercise2WebAutomationTest')
+data.setCell(0, 3, 18074);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'postNewAvailablePetToStoreTest')
+data.setCell(1, 2, 'com.demo.tests.Exercise1RestAPIAutomationTest')
+data.setCell(1, 3, 5227);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getPetStatusByAvailbleTest')
+data.setCell(2, 2, 'com.demo.tests.Exercise1RestAPIAutomationTest')
+data.setCell(2, 3, 5113);
+window.suiteTableData['AssignmentDemo']= { tableData: data, tableDiv: 'times-div-AssignmentDemo'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 28 seconds</span>
+              <div id="times-div-AssignmentDemo">
+              </div> <!-- times-div-AssignmentDemo -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-AssignmentDemo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for AssignmentDemo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">exercise2WebAutomationTest(Sony vaio i5, Dell i7 8gb, Product added, Jeevan, india, Bangalore, 12345678912345, Octomber, 2020)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The Product Store Title is Present On the Home Page</span>
+                <span class="reporter-method-output">Navigating to the Laptop Page and Then Click on the Respective Laptop::Sony vaio i5</span>
+                <span class="reporter-method-output">The Selected Laptop Title is Present ::Sony vaio i5</span>
+                <span class="reporter-method-output">The Add to Cart Button is Present</span>
+                <span class="reporter-method-output">Click on the  Add to Cart Button</span>
+                <span class="reporter-method-output">Product Added into the cart</span>
+                <span class="reporter-method-output">clicked on the alert ok btn</span>
+                <span class="reporter-method-output">Navigating to the Laptop Page and Then Click on the Respective Laptop::Dell i7 8gb</span>
+                <span class="reporter-method-output">The Selected Laptop Title is Present ::Dell i7 8gb</span>
+                <span class="reporter-method-output">The Add to Cart Button is Present</span>
+                <span class="reporter-method-output">Click on the  Add to Cart Button</span>
+                <span class="reporter-method-output">Product Added into the cart</span>
+                <span class="reporter-method-output">clicked on the alert ok btn</span>
+                <span class="reporter-method-output">The purchase Id id::9717766
+Amount:</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">postNewAvailablePetToStoreTest(animal, doggie, tagName, available)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The pet name from the post response ::doggie801</span>
+                <span class="reporter-method-output">The pet name got from Get response ::doggie801</span>
+                <span class="reporter-method-output">The the updated status from the put response is::sold</span>
+                <span class="reporter-method-output">The type  from delete response is::unknown</span>
+                <span class="reporter-method-output">The message  from delete response is::15435006002298</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">getPetStatusByAvailbleTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The code is::200</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-AssignmentDemo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-AssignmentDemo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demo.tests.Exercise2WebAutomationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demo.tests.Exercise1RestAPIAutomationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getPetStatusByAvailbleTest</span>
+                <span class="method-start">6159 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">postNewAvailablePetToStoreTest(animal, doggie, tagName, available)</span>
+                <span class="method-start">12031 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demo.tests.Exercise2WebAutomationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">exercise2WebAutomationTest(Sony vaio i5, Dell i7 8gb, Product added, Jeevan, india, Bangalore, 12345678912345, Octomber, 2020)</span>
+                <span class="method-start">17595 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">35670 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
