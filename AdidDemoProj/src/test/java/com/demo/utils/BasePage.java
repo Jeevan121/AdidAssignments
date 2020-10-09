@@ -59,6 +59,7 @@ public class BasePage {
 	}
 	
 	public void moveToElementAndClick(By element) {
+		waitForElementPresent(element);
 		final Actions action = new Actions(driver);
 	    action.moveToElement(driver.findElement(element)).click().build().perform();
 	  }
